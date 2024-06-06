@@ -1,0 +1,305 @@
+/* esto es un comentario
+
+elemento {
+    propiedad: valor
+}    
+
+*/
+
+/*SELECTORES*/
+/*SELECTORES DE ETIQUETAS*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 10px;
+    margin-right: 20px;
+
+    
+}
+
+.lista {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    background-color: rgb(255, 255, 255);
+    height: 55px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 15px;
+    z-index: 1;
+    
+    
+}
+
+/*Es necesario poner la a porque se refiere a los enlaces*/
+header nav a {
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    
+}
+/*SELECTORES DE ID*/
+/*#titulo-principal {
+    background-color: black;
+}*/
+
+/*SELECTORES DE CLASES los mas usados*/
+
+.estructura-de-imagen {
+
+    /* Porcentaje % utiliza el 100% de su contenedor*/
+    /* Viewport width o viewport height, utiliza el 100% del dispositivo*/
+    width: 10vw;
+    height: 20vh;
+    color: cadetblue;
+}
+
+.img-logo {
+    width: 60px;
+    height: 55px;
+    margin-left: 20px;
+    z-index: 2;
+    margin-top: 15px;
+}
+
+.img-portada {
+    width: 100%;
+    height: 350px;
+}
+
+p {
+    font-family: roboto;
+
+}
+
+#titulo {
+    display: flex;
+    justify-content:center;
+}
+
+.titulo-principal {
+    font-family: "roboto";
+    z-index: 1;
+    margin-top: 0px;
+    font-size:20px;
+    text-align: center;
+}
+
+
+.titulo-secundario {
+    font-family: "roboto";
+    font-size: 20px;
+    text-align: left;
+    z-index: 1;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+
+.botones {
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.servicios {
+    font-family: roboto;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: solid 3px black;
+    margin-top: 50px;
+
+    
+}
+.img-boton {
+    width: 100px;
+    height: 100px;
+}
+
+.text-boton {
+    color: blue;
+    font-size: 15px;
+    
+}
+
+
+.historia {
+    font-family: roboto;
+    text-align: center;
+    color: black;
+    margin-top: 150px;
+    padding: 20px;
+    background-color: rgb(192, 145, 143);
+}
+
+.novedades {
+    margin-top: 50px;
+    h2 {
+        text-decoration: underline;
+        font-family: roboto;
+    }
+    p{
+        font-family: roboto;
+    }
+}
+
+.imagen-novedades {
+    height: 500px;
+    width: 1000px;
+}
+
+/* sino tambien puedo poner que todo lo que esta dentro de normativa y sea h1 tenga un color diferente*/
+
+#autoridades {
+    font-family: "roboto";
+    text-align: center;
+    p{
+        font-family: roboto;
+    }
+    background-color: antiquewhite;
+}
+
+
+
+.grilla { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "maps info";
+
+}
+
+.maps {
+    grid-area: maps;
+}
+
+.info {
+    grid-area: info;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8px;
+
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    
+}
+
+.contacto {
+    font-family: "roboto";
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+#contacto h1{
+
+    font-size: small;
+    font-family: "roboto";
+
+}
+
+#normativas h1 {
+    color: black;
+ }
+
+footer{
+    background-color: antiquewhite;
+}
+
+footer ul{
+    list-style-type:disc ;
+}
+
+/*unidades de medidas absolutas- se ven iguales en cada pantalla*/
+p{
+    font-size: 20px;
+    margin: 40px; 
+}
+
+/*unidades de medidas relativas- se adaptan a acada pantalla*/
+img{
+    width: 100%;
+}
+a{
+    font-size: 2rem;
+}
+
+/* fuente traida desde google fonts*/
+p{
+    .jersey-20-charted-regular {
+        font-family: "Jersey 20 Charted", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+
+.cfna {
+    font-family: roboto;
+    font-size: 20px;
+    
+}
+
+.lista-autoridades {
+    font-family: roboto;
+    font-size: 30px;
+}
+
+.lista-normativas {
+    font-family: roboto;
+    font-size: 20px;
+    p{
+        font-style: italic;
+        text-align: justify;
+    }
+}
+
+
+.auto {
+    height: 500px;
+    width: 1000px;
+}
+
+.boton-seccion:hover {
+    font-weight: bolder;
+}
+
+@media (max-width:480px) {
+
+nav {
+    flex-direction: column;
+
+}
+
+}
+    
+
+
+
+@media (max-width:600px) {
+
+.botones{display: none;}
+
+}
