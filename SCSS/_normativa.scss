@@ -1,0 +1,41 @@
+@import "_header.scss";
+@import "_extend.scss";
+
+#normativas h1 {
+    color: black;
+ }
+
+.ley719 {
+    font-size:20px;
+}
+
+.codigo {
+font-size: 20px;
+background-color: $background-color;
+}
+
+.lista-normativas {
+    font-family: roboto;
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    
+}
+
+.ley1219 {
+    font-family: $fuente;
+    background-color: $background-color;
+}
+
+.mod1219 {
+    background-color: $background-color;
+}
+
+/* imagen de portada */
+.img-fluid {
+    width: 100%;
+}
+
+.cfna {
+    @extend .footer;
+}

@@ -1,0 +1,46 @@
+@import "_header.scss";
+
+.grilla { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "maps info";
+
+}
+.maps {
+    grid-area: maps;
+}
+
+.tel {
+    font-size: 17px;
+}
+
+.info {
+    grid-area: info;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+}
+
+.contacto {
+    font-family: "roboto";
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#contacto h1{
+    font-size: small;
+    font-family: "roboto";
+}
+
+/* imagen de portada */
+.img-fluid {
+    width: 100%;
+}
+

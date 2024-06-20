@@ -1,0 +1,42 @@
+@import "_header.scss";
+
+.autoridades {
+    font-family: "roboto";
+    text-align: center;
+    font-style: italic;
+}
+
+.gestion {
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.grilla { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "maps info";
+}
+
+.maps {
+    grid-area: maps;
+}
+
+.info {
+    grid-area: info;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8px;
+}
+
+
+.lista-autoridades {
+    font-family: $fuente;
+    font-size: 30px;
+    background-color: $background-color;
+    }
+
+    /* imagen de portada */
+.img-fluid {
+    width: 100%;
+}

@@ -5,7 +5,6 @@ elemento {
 }    
 
 */
-
 /*SELECTORES*/
 /*SELECTORES DE ETIQUETAS*/
 * {
@@ -39,10 +38,6 @@ header nav {
     align-items: center;
     justify-content:end;
     background-color: rgb(255, 255, 255);
-    height: 55px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    padding: 15px;
     z-index: 1;
     
     
@@ -56,9 +51,6 @@ header nav a {
     
 }
 /*SELECTORES DE ID*/
-/*#titulo-principal {
-    background-color: black;
-}*/
 
 /*SELECTORES DE CLASES los mas usados*/
 
@@ -151,34 +143,23 @@ p {
     background-color: rgb(192, 145, 143);
 }
 
-.novedades {
-    margin-top: 50px;
-    h2 {
-        text-decoration: underline;
-        font-family: roboto;
-    }
-    p{
-        font-family: roboto;
-    }
+.historia-texto {
+    text-align: center;
+    text-align: justify;
 }
 
-.imagen-novedades {
-    height: 500px;
-    width: 1000px;
-}
 
-/* sino tambien puedo poner que todo lo que esta dentro de normativa y sea h1 tenga un color diferente*/
-
-#autoridades {
+.autoridades {
     font-family: "roboto";
     text-align: center;
-    p{
-        font-family: roboto;
-    }
-    background-color: antiquewhite;
+    font-style: italic;
 }
 
-
+.gestion {
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
 
 .grilla { 
     display: grid;
@@ -225,6 +206,14 @@ p {
     color: black;
  }
 
+.ley719 {
+    font-size:20px;
+}
+
+.codigo {
+font-size: 20px;
+}
+
 footer{
     background-color: antiquewhite;
 }
@@ -270,10 +259,8 @@ p{
 .lista-normativas {
     font-family: roboto;
     font-size: 20px;
-    p{
-        font-style: italic;
-        text-align: justify;
-    }
+    font-style: italic;
+    text-align: justify;
 }
 
 
@@ -295,8 +282,6 @@ nav {
 
 }
     
-
-
 
 @media (max-width:600px) {
 
