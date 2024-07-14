@@ -1,29 +1,25 @@
-@import "_header.scss";
-
+    /* contactos */
 .grilla { 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-areas: "maps info";
-
 }
+
 .maps {
     grid-area: maps;
 }
 
-.tel {
-    font-size: 17px;
-}
 
 .info {
     grid-area: info;
     margin-left: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 17px;
 }
 
 .logo {
     height: 30px;
     width: 30px;
+    margin: 10px;
+    
 }
 
 .contacto {
@@ -32,15 +28,10 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+
 }
 
-#contacto h1{
-    font-size: small;
-    font-family: "roboto";
-}
 
-/* imagen de portada */
 .img-fluid {
     width: 100%;
 }
-

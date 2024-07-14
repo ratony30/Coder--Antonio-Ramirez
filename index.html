@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- metaetiquetas SEO -->
+     <meta name="description" content="COLEGIO DE ESCRIBANOS DE FORMOSA. Accedé a servicios notariales. Visualizá la Escribanía más cercana. Novedades notariales">
+     <meta name="keywords" content="escribanos, apostillas, legalización, servicios notariales, escribanos de formmosa, colegio profesional, historia colegio escribanos">
+
     <!-- animacion -->
     <link
     rel="stylesheet"
@@ -23,9 +27,12 @@
 
     <!-- aca hago la conexion con CSS -->
     <!-- se utiliza un solo CSS para todo el proyecto -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 
-    <title>Inicio</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./multimedia/faviconce.ico" type="image/x-icon">
+
+    <title>Inicio - Colegio de Escribanos</title>
 
 </head>
 <body>
@@ -36,7 +43,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="./index.html">
                     <img src="multimedia/logo-colegio.jpeg" alt="logo del colegio de escribanos" class="img-logo">
 
                 </a>
@@ -47,11 +54,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                        <a class="nav-link" href="./Secciones/autoridades.html">Autoridades</a>
-                        <a class="nav-link" href="./Secciones/contacto.html">Contacto</a>
-                        <a class="nav-link" href="./Secciones/nomina-esc.html">Nomina</a>
-                        <a class="nav-link" href="./Secciones/normativas.html">Normativas</a>
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        <a class="nav-link" href="./secciones/autoridades.html">Autoridades</a>
+                        <a class="nav-link" href="./secciones/contacto.html">Contacto</a>
+                        <a class="nav-link" href="./secciones/nomina-esc.html">Nomina</a>
+                        <a class="nav-link" href="./secciones/normativas.html">Normativas</a>
 
                     </div>
                 </div>
@@ -64,13 +71,13 @@
 
         <section id="titulo">
             <article>
-                <h1 class="titulo-principal">COLEGIO DE ESCRIBANOS DE LA PROVINCIA DE FORMOSA</h1>
+                <h2 class="titulo-principal">COLEGIO DE ESCRIBANOS DE LA PROVINCIA DE FORMOSA</h2>
             </article>
         </section>
 
         <section id="titulo-secundario">
             <article>
-                <h2 class="animate__animated animate__bounce" >SERVICIOS</h2>
+                <h1 class="animate__animated animate__bounce">SERVICIOS</h1>
             </article>
         </section>
 
@@ -78,18 +85,18 @@
 
         <section class="botones">
             <article class="servicios">
-                <img src="./Secciones/multimedia/LEGALIZACIONES.jpg" alt="imagen de legalizaciones" class="img-boton">
+                <img src="./multimedia/LEGALIZACIONES.jpg" alt="imagen de legalizaciones" class="img-boton">
                 <h2 class="text-boton">LEGALIZACION</h2>
             </article>
 
             <article class="servicios">
-                <img src="./Secciones/multimedia/APOSTILLAS.jpg" alt="imagen de apostillas" class="img-boton">
+                <img src="./multimedia/APOSTILLAS.jpg" alt="imagen de apostillas" class="img-boton">
                 <h2 class="text-boton">APOSTILLAS</h2>
             </article>
 
             <article class="servicios">
-                <img src="./Secciones/multimedia/REGISTROS.jpg" alt="imagen de registros" class="img-boton">
-                <h2 class="text-boton">REGISTROS DE ACTOS DE ÚLTIMA VOLUNTAD Y AUTOPROTECCIÓN</h2>
+                <img src="./multimedia/REGISTROS.jpg" alt="imagen de registros" class="img-boton">
+                <h2 class="text-boton">REG A.U.V.A.</h2>
             </article>
         </section>
 
@@ -118,26 +125,15 @@
 
             </article>
         </section>
-        <nav>
-            <ul>
-                <li>
-                    Instagram
-                </li>
-                <li>
-                    Faceboock
-                </li>
-                <li>
-                    Wpp
-                </li>
-            </ul>
-        </nav>
-
+     
         <!-- aca estoy agregando CLASES y las clases se pueden volver a utilizar despues para otros casos copiando y pegando nomas -->
     </main>
     <footer>
         <ul>
             <!-- aca pongo un enlace -->
             <a href="https://www.cfna.org.ar/" target="_blank" class="cfna">CFNA</a>
+
+            </a>
         </ul>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
