@@ -1,0 +1,25 @@
+ /* normativas*/
+#normativas h1 {
+    color: black;
+ }
+
+.ley719 {
+    font-family: $fuente;
+    background-color: $background-color;
+}
+
+.mod1219 {
+    background-color: $background-color;
+    padding: 20px;
+}
+.codigo {
+    font-size: 20px;
+    background-color: $background-color;
+}
+
+.lista-normativas {
+    font-family: roboto;
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+}

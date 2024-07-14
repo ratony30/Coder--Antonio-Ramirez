@@ -1,0 +1,37 @@
+    /* contactos */
+.grilla { 
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "maps info";
+}
+
+.maps {
+    grid-area: maps;
+}
+
+
+.info {
+    grid-area: info;
+    margin-left: 20px;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    
+}
+
+.contacto {
+    font-family: "roboto";
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+
+.img-fluid {
+    width: 100%;
+}

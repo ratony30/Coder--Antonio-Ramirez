@@ -1,0 +1,7 @@
+.cfna {
+    font-family: $fuente;
+    background-color: map-get($paleta-colores, color-texto);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+ }
